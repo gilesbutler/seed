@@ -1,17 +1,12 @@
-gulp-starter
+Seed project with Gulp, Sass, Compass, Browserify and Component Structure
 ============
 
-Starter Gulp + Browserify project with examples of how to accomplish some common tasks and workflows. Read the [blog post](http://viget.com/extend/gulp-browserify-starter-faq) for more context, and check out the [Wiki]() for some good background knowledge.
+Inspired by this [Viget blog post](http://viget.com/extend/gulp-browserify-starter-faq).
 
 Includes the follwing tools, tasks, and workflows:
 
 - Browserify (with browserify-shim)
 - Compass
-- CoffeeScript (with source mapping!)
-- jQuery (from npm)
-- Backbone (from npm)
-- Handlebars (as a backbone dependency)
-- Non common-js vendor code (like a jQuery plugin)
 - LiveReload
 - Static Server
 - Image optimization
@@ -44,11 +39,9 @@ npm install
 This runs through all dependencies listed in `package.json` and downloads them
 to a `node_modules` folder in your project directory.
 
-### Run gulp and be amazed.
+### Run gulp.
 ```
 gulp
 ```
 
-This will create and run the task defined in `gulpfile.js`. If you're on OS X,
-and have Chrome installed, a window will open displaying the demo page. If not,
-you can visit http://localhost:8080 to view the test page.
+This will create and run the task defined in `gulpfile.js`.
