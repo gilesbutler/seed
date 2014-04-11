@@ -6,10 +6,8 @@ var source = require('vinyl-source-stream');
 
 module.exports = function() {
 	return browserify({
-			entries: ['./src/javascript/app.coffee'],
-			extensions: ['.coffee', '.hbs']
+			entries: ['./src/components/app/js/app.js']
 		})
-		.require('backbone/node_modules/underscore', { expose: 'underscore' })
 		.bundle({debug: true})
 		.on('error', notify.onError({
 			message: "<%= error.message %>",

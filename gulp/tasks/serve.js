@@ -8,5 +8,5 @@ module.exports = function(){
 		.use(connect.logger('dev'))
 		.use(connect.static(buildPath));
 
-	http.createServer(app).listen(8080);
+	http.createServer(app).listen(3000);
 };

@@ -4,7 +4,7 @@ var open = require("gulp-open");
 module.exports = function() {
 
 	var options = {
-		url: "http://localhost:8080",
+		url: "http://localhost:3000",
 		app: "google chrome"
 	};
 
